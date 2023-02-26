@@ -3,18 +3,15 @@ package ru.chabndheanee.musicplayerapi.model.player;
 import lombok.extern.slf4j.Slf4j;
 import ru.chabndheanee.musicplayerapi.model.Track;
 
-import javax.sound.sampled.UnsupportedAudioFileException;
 import java.io.File;
 import java.io.IOException;
 import java.util.LinkedList;
-import java.util.Timer;
-import java.util.TimerTask;
 
+@SuppressWarnings("deprecation")
 @Slf4j
 //@Data
 public class Player {
-    LinkedList<Track> playlist = new LinkedList<>();
-    private static final Timer timer = new Timer();
+    final LinkedList<Track> playlist = new LinkedList<>();
     Track track;
     int currentTrack = 0;
     SongThread thread = new SongThread();
@@ -63,7 +60,7 @@ public class Player {
         try {
             Track track = new Track(new File(path));
             playlist.add(track);
-        } catch (UnsupportedAudioFileException | IOException e) {
+        } catch (IOException e) {
             e.getStackTrace();
         }
     }

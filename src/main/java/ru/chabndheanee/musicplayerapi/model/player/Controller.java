@@ -5,12 +5,12 @@ import java.util.Scanner;
 public abstract class Controller {
     private static final Scanner scanner = new Scanner(System.in);
 
-    private static Player player = new Player();
+    private static final Player player = new Player();
 
 
+    @SuppressWarnings("InfiniteLoopStatement")
     public static void launch() {
-        boolean launched = true;
-        while (launched) {
+        while (true) {
             printMenu();
             loop:
             while (true) {

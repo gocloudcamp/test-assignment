@@ -1,15 +1,12 @@
 package ru.chabndheanee.musicplayerapi.model;
 
 import lombok.Data;
-import lombok.extern.slf4j.Slf4j;
 
 import javax.sound.sampled.*;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
-import java.util.Map;
 import java.util.Objects;
-import java.util.Scanner;
 
 //@Slf4j
 @Data
@@ -19,16 +16,14 @@ public class Track {
     File trackFile;
     private Clip clip;
     private AudioInputStream ais;
-    FileInputStream fileInputStream = null;
+    FileInputStream fileInputStream;
     long clipPos = 0;
 
     private boolean playing = false;
 
-    public Track(File trackFile) throws UnsupportedAudioFileException, IOException {
+    public Track(File trackFile) throws IOException {
         this.trackFile = trackFile;
         name = trackFile.getName();
-        AudioFileFormat format = AudioSystem.getAudioFileFormat(trackFile);
-        Map<String, Object> properties = format.properties();
         fileInputStream = new FileInputStream(trackFile);
     }
 
