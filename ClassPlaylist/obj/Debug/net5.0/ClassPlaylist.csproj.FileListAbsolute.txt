@@ -1,0 +1,12 @@
+F:\Programming)))\VS Studio\C#\MusicPlayer\ClassPlaylist\bin\Debug\net5.0\ClassPlaylist.deps.json
+F:\Programming)))\VS Studio\C#\MusicPlayer\ClassPlaylist\bin\Debug\net5.0\ClassPlaylist.dll
+F:\Programming)))\VS Studio\C#\MusicPlayer\ClassPlaylist\bin\Debug\net5.0\ref\ClassPlaylist.dll
+F:\Programming)))\VS Studio\C#\MusicPlayer\ClassPlaylist\bin\Debug\net5.0\ClassPlaylist.pdb
+F:\Programming)))\VS Studio\C#\MusicPlayer\ClassPlaylist\obj\Debug\net5.0\ClassPlaylist.csproj.AssemblyReference.cache
+F:\Programming)))\VS Studio\C#\MusicPlayer\ClassPlaylist\obj\Debug\net5.0\ClassPlaylist.GeneratedMSBuildEditorConfig.editorconfig
+F:\Programming)))\VS Studio\C#\MusicPlayer\ClassPlaylist\obj\Debug\net5.0\ClassPlaylist.AssemblyInfoInputs.cache
+F:\Programming)))\VS Studio\C#\MusicPlayer\ClassPlaylist\obj\Debug\net5.0\ClassPlaylist.AssemblyInfo.cs
+F:\Programming)))\VS Studio\C#\MusicPlayer\ClassPlaylist\obj\Debug\net5.0\ClassPlaylist.csproj.CoreCompileInputs.cache
+F:\Programming)))\VS Studio\C#\MusicPlayer\ClassPlaylist\obj\Debug\net5.0\ClassPlaylist.dll
+F:\Programming)))\VS Studio\C#\MusicPlayer\ClassPlaylist\obj\Debug\net5.0\ref\ClassPlaylist.dll
+F:\Programming)))\VS Studio\C#\MusicPlayer\ClassPlaylist\obj\Debug\net5.0\ClassPlaylist.pdb
